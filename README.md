@@ -45,29 +45,45 @@
 ## 🖥개발환경
 
   "dependencies": {
-    "@supabase/supabase-js": "^2.49.4",<br/>
-    "@testing-library/dom": "^10.4.0",<br/>
-    "@testing-library/jest-dom": "^6.6.3",<br/>
-    "@testing-library/react": "^16.2.0",<br/>
-    "@testing-library/user-event": "^13.5.0",<br/>
-    "react": "^19.0.0",<br/>
-    "react-datepicker": "^8.3.0",<br/>
-    "react-dom": "^19.0.0",<br/>
-    "react-hook-form": "^7.55.0",<br/>
-    "react-router-dom": "^7.3.0",<br/>
-    "react-scripts": "5.0.1",<br/>
-    "sass": "^1.85.1",<br/>
-    "swiper": "^11.2.5",<br/>
-    "web-vitals": "^2.1.4"<br/>
+    "@heroicons/react": "^2.2.0",<br/>
+    "@supabase/supabase-js": "^2.49.4",<br/>
+    "axios": "^1.9.0",<br/>
+    "framer-motion": "^12.10.0",<br/>
+    "react": "^18.2.0",<br/>
+    "react-cookie": "^8.0.1",<br/>
+    "react-datepicker": "^8.3.0",<br/>
+    "react-dom": "^18.2.0",<br/>
+    "react-helmet-async": "^2.0.5",<br/>
+    "react-hook-form": "^7.56.2",<br/>
+    "react-lazyload": "^3.2.1",<br/>
+    "react-range": "^1.10.0",<br/>
+    "react-router-dom": "^7.5.3",<br/>
+    "react-scrollbars-custom": "^4.1.1",<br/>
+    "react-scrollspy": "^3.4.3",<br/>
+    "sass": "^1.85.1",<br/>
+    "styled-components": "^6.1.16",<br/>
+    "swiper": "^11.2.6"<br/>
   },<br/>
+  "devDependencies": {<br/>
+    "@types/react": "^18.2.15",<br/>
+    "@types/react-dom": "^18.2.7",<br/>
+    "@typescript-eslint/eslint-plugin": "^6.0.0",<br/>
+    "@typescript-eslint/parser": "^6.0.0",<br/>
+    "@vitejs/plugin-react": "^4.0.3",<br/>
+    "@testing-library/dom": "^10.4.0",<br/>
+    "@testing-library/jest-dom": "^6.6.3",<br/>
+    "@testing-library/react": "^16.2.0",<br/>
+    "@testing-library/user-event": "^13.5.0",<br/>
+    "autoprefixer": "^10.4.21",<br/>
+    "eslint": "^8.45.0",<br/>
+    "eslint-plugin-react-hooks": "^4.6.0",<br/>
+    "eslint-plugin-react-refresh": "^0.4.3",<br/>
+    "postcss": "^8.5.3",<br/>
+    "tailwindcss": "^3.4.17",<br/>
+    "typescript": "^5.0.2",<br/>
+    "vite": "^4.4.5"<br/>
+  }<br/><br/>
 
-"styled-components": "^6.1.16",<br/>
-vs<br/>
-tailwind<br/>
-
-"react-scrollbars-custom": "^4.1.1"
-<br/>
-<br/>
 ## 💾설치모듈
 nvm list
 
@@ -99,14 +115,19 @@ npm -v
 <br/>
 
 ### Backend
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=Supabase&logoColor=white">
+<img width="120" src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=Supabase&logoColor=white"><br/>
+<a href="https://www.erdcloud.com/d/yGHHBgaGij62Pv2ht"><img width="120" src="https://d-hye.github.io/source/img_readme/erd.png"></a>
 <br/>
 
 ## Diagram
-<img width="750" src="https://d-hye.github.io/source/img_readme/tripter-diagram.png?raw=true">
+<img width="640" src="https://d-hye.github.io/source/img_readme/structure.png?raw=true"><br/>
+<img width="800" src="https://d-hye.github.io/source/img_readme/sitemap.png?raw=true"><br/>
+<img width="800" src="https://d-hye.github.io/source/img_readme/diagram.png?raw=true">
 <br/>
 
 ## UX/UI
+<a href="https://www.figma.com/design/3FwZUfWPbU4TBBwjCsDPgR/%ED%8A%B8%EB%A6%BD%ED%84%B0-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%82%AC%EC%9D%B4%ED%8A%B8%EB%A7%B5-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85?node-id=2595-1176&t=VbVKcoA0aQyyffRM-1"><br/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=figma&logoColor=#F24E1E"></a>
 <img  width="500" src="https://d-hye.github.io/source/img_readme/tripter-uiux.png?raw=true">
 <br/>
 <br/>

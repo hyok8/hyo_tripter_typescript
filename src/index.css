@@ -1,0 +1,58 @@
+:root{
+    /* Color styles */
+   --trip-blue : #0051D3;
+   --trip-yellow : #FFDA00;
+   --trip-white : rgba(255, 255, 255, 1);
+   --trip-gray1: rgba(181, 181, 181, 1);
+   --trip-gray2: rgba(217, 217, 217, 1);
+   --trip-gray3: #777;
+   --trip-black: rgba(17, 17, 17, 1);
+   --trip-skyblue: #D2E4FF;
+   --trip-red: #FF6A6A;
+   --trip-sun: #FF7F50;
+   --trip-green: #3EB489;
+   --bg-gray:#f3f3f3;
+
+
+   /* Text-size styles */
+   --main-slide: 4rem;
+   --huge-text: 3rem;
+   --big-text: 2.5rem;
+   --semibig-text: 2rem;
+   --mediumbig-text: 1.75rem;
+   --medium-text: 1.5rem;
+   --semismall-text: 1.25rem;
+   --small-text: 1rem;
+   --desc-text: 0.875rem;
+   --m-small-text: 0.75rem; /* 모바일, 1rem = 10px */
+
+
+   /* Font style */
+   --theJamsil-thin: 'TheJamsil100';
+   --theJamsil-light: 'TheJamsil300';
+   --theJamsil-regular: 'TheJamsil400';
+   --theJamsil-medium: 'TheJamsil500';
+   --theJamsil-bold: 'TheJamsil700';
+   --theJamsil-extrabold: 'TheJamsil800';
+
+   /* Drop shadow */
+   --dropShadow: 1px 1px 5px rgba(0,0,0,0.25)
+}
+
+
+body ::-webkit-scrollbar-track {
+    background: var(--trip-skyblue);
+    border-radius: 5px; /* 둥근 모서리 */
+}
+body ::-webkit-scrollbar {
+    width: 5px;
+}
+body ::-webkit-scrollbar-thumb {
+    background: var(--trip-blue);
+    border-radius: 12px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
