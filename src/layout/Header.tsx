@@ -41,8 +41,8 @@ const Header: React.FC<{ id: string }> = ({ id }) => {
   return (
     <header id={id} className={isScrolled ? hyo.scrolled : ""}>
       <div className="header_inner">
-        <div className={`bg-trip-blue pc w-100`}>
-          <div className="py-4 max-w-container mx-auto flex justify-end h-10">
+        <div className={`bg-trip-blue hidden md:block w-100`}>
+          <div className="py-4 max-w-container p-container-x mx-auto flex justify-end h-10">
             <ul className="flex gap-6 items-center">
               <li className="flex">
                 <Link to="/user" className="text-white text-m-small-text">
@@ -74,7 +74,7 @@ const Header: React.FC<{ id: string }> = ({ id }) => {
         </div>
 
         <div className={`${hyo.gnbbox} fixed top-[2.5rem] left-0 right-0 z-[100] bg-white w-full border-b border-b-trip-gray2 transition-[height] duration-300`}>
-          <div className={`${hyo.gnb} max-w-[90rem] mx-auto flex justify-between items-center cursor-pointer h-20`}
+          <div className={`${hyo.gnb} max-w-container mx-auto p-container-x flex justify-between items-center cursor-pointer h-20`}
           >
             <h1 className={`${hyo.logo} order-2 mx-auto`}>
               <Link to="/">
@@ -97,7 +97,7 @@ const Header: React.FC<{ id: string }> = ({ id }) => {
               </div>
             </div>
 
-            <ul className={`${hyo.menu} flex gap-6 order-1 pc`}>
+            <ul className={`${hyo.menu} gap-6 order-1 hidden md:flex`}>
               <li>
                 <Link
                   to="/tripRoute/myFeelter"
@@ -128,7 +128,7 @@ const Header: React.FC<{ id: string }> = ({ id }) => {
                 <form action="/" className="flex items-center gap-[0.2rem]">
                   <input
                     type="text"
-                    className={`${isScrolled ? hyo.scrolled : ""} pc rounded-l-[0.75rem] rounded-r-[0.3125rem] border-[2px] border-trip-blue outline-none px-4`}
+                    className={`${isScrolled ? hyo.scrolled : ""}hidden md:block rounded-l-[0.75rem] rounded-r-[0.3125rem] border-[2px] border-trip-blue outline-none px-4`}
                     name="search"
                     placeholder="눈의 나라 훗카이도로~!"
                   />

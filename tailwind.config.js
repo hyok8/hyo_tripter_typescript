@@ -56,8 +56,8 @@ export default {
         'container-m': '48rem',
       },
       padding: {
-        'container-x': '1.25rem',
-        'container-m-x': '0.5rem',
+        'container-x': '0 1.25rem',
+        'container-m-x': '0 0.5rem',
       }
     },
   },
