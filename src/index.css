@@ -59,3 +59,6 @@ body ::-webkit-scrollbar-thumb {
 @tailwind components;
 @tailwind utilities;
 
+body{
+    height: 300vh;
+}
